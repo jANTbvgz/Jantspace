@@ -1,0 +1,1009 @@
+{
+	"_meta": 
+	{
+	"sources": 
+		[
+			{	"json": "AelarionElNuevoContinente",
+				"abbreviation": "Aelarion",
+				"full": "Aelarion: El Nuevo Continente",
+				"version": "0.01",
+				"color": "da95d6",
+				"url": ""
+			}	
+		]	
+	},
+	"itemProperty":	
+	[	{	
+		"abbreviation": "Mf",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"entries": 
+		[
+			{	"type": "entries",
+				"name": "Misfire",
+				"entries": [ "Whenever you make an attack roll with a firearm, and the dice roll is equal to or lower than the weapon’s Misfire score, the weapon misfires. The attack misses, and the weapon cannot be used again until you spend an action to try and repair it. To repair your firearm, you must make a successful Tinker’s Tools check (DC equal to 10 + misfire score). If your check fails, the weapon is broken and must be mended out of combat at a quarter of the cost of the firearm. Creatures who use a firearm without being proficient increase the weapon’s misfire score by 2." ]
+			}
+		],
+		"template": "{{prop_name}}: {{item.customProperties.misfire}}"
+	},	{
+		"abbreviation": "CdM",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"name": "Costo de Municion",
+		"entries": 
+		[
+			{	"type": "entries",
+				"name": "",
+				"entries": [ ""	]
+			}
+		],
+		"template": "{{prop_name}}: {{item.customProperties.mcosto}} gp ({{item.customProperties.mcantidad}})"
+	},	{
+		"abbreviation": "Explosivo",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"entries": 
+		[
+			{	"type": "entries",
+				"name": "Explosivo",
+				"entries": [ "Al impactar, todo lo que se encuentre a 5 pies del objetivo debe realizar una tirada de salvación de Destreza CD 14 o sufrir 4d4 de daño por fuego. Si el arma se atasca(Missfire), la munición detona centrada en ti. Sonido. Al disparar un arma de fuego el sonido sera escuchado por toda criatura que se encuentre a 300 pies del origen del disparo" ]
+			}
+		],
+		"template": "{{prop_name}}"
+	},	{
+		"abbreviation": "MusketS",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"entries": 
+		[
+			{	"type": "entries",
+				"name": "Special",
+				"entries": [ "Cuando estás prone apuntar con un mosquete te otorga 30 pies más que el valor de alcance normal y maximo, adicionalmente podras añadir tu modificador de proficiencia a tu tirada de daño con esta arma." ]
+			}
+		],
+		"template": "{{prop_name}}"
+	},	{
+		"abbreviation": "HarpoonS",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"entries": 
+		[
+			{	"type": "entries",
+				"name": "Special",
+				"entries": [ "When you score a hit with a ranged attack launched with the harpoon against a Huge or smaller creature, the target can’t move more than 20 feet away from you as long as you hold the rope or attach it to an immovable object. You can use your bonus action to attempt to pull a creature, forcing it to make a DC 8 + Proficiency Bonus + Your Strength modifier Strength save. On a failed save, the creature is pulled 10 feet toward you without generating an attack of opportunity. On a successful save, it can break free. It can break free with a successful DC 12 Strength (Athletics) check to rip the rope using its action to pull the harpoon, dealing 1d6 piercing damage. The range of the throw and pull are doubled underwater." ]
+			}
+		],
+		"template": "{{prop_name}}"
+	},	{
+		"abbreviation": "ScimitarS",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"entries": 
+		[
+			{	"type": "entries",
+				"name": "Special",
+				"entries": [ "Once per round when a creature you can see hits you with a melee attack while you’re wielding this weapon, you can try to deflect the attack. Make an attack roll with the double scimitar. If the result is higher than the attacking creature’s attack roll, you reduce the damage by half. However, if you fail, you take double the damage. This weapon counts as 2 separate weapons as long as it remains in your hands." ]
+			}
+		],
+		"template": "{{prop_name}}"
+	},	{
+		"abbreviation": "PistolS",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"entries": 
+		[
+			{	"type": "entries",
+				"name": "Special",
+				"entries": [ "Al usarlo junto con un escudo, reduce el alcance efectivo del arma a la mitad." ]
+			}
+		],
+		"template": "{{prop_name}}"
+	},	{
+		"abbreviation": "MsMomentum",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"entries": 
+		[	
+			{	"type": "entries",
+				"name": "Mastery: Momentum",
+				"entries": [ "Si realizas un ataque con un arma de impulso y te has movido al menos 20 pies en línea recta este turno, agregas 1d6 de daño adicional al ataque. Este dado aumenta a 1d8 a nivel 5, 1d10 a nivel 11 y 1d12 a nivel 17." ]
+			}
+		],
+		"template": "{{prop_name}}"
+	},	{
+		"abbreviation": "MsPush",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"entries": 
+		[	
+			{	"type": "entries",
+				"name": "Mastery: Push",
+				"entries": [ "Una vez que golpeas a una criatura que se encuentra dentro del alcance de tu arma, debe superar una tirada de salvación. Si falla, es empujada hasta 10 pies de distancia de ti (hacia atras). Si la criatura choca con un objeto sólido u otra criatura, se detiene antes de tiempo y ambos reciben daño igual al doble de tu bonificación por competencia." ]
+			}	
+		],
+		"template": "{{prop_name}}"
+	},	{
+		"abbreviation": "MsShift",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"entries": 
+		[
+			{	"type": "entries",
+				"name": "Mastery: Shift",
+				"entries": [ "Cuando golpeas a una criatura con esta arma, como parte de esta Acción puedes moverte hasta 10 pies sin provocar un Ataque de Oportunidad." ]
+			}
+		],
+		"template": "{{prop_name}}"
+	},	{
+		"abbreviation": "MsSwing",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"entries": 
+		[	
+			{	"type": "entries", 
+				"name": "Mastery: Swing",
+				"entries": [ "Cuando realizas la acción de Ataque, puedes renunciar a uno de tus ataques para realizar un ataque amplio. Todas las criaturas dentro de tu alcance deben superar una tirada de salvación. Si la tirada falla, reciben el daño del arma, pero no sumas tu modificador de característica al daño a menos que sea negativo. Si la tirada tiene éxito, reciben el daño minimo sin modificador de característica a menos que sea negativo." ]
+			}	
+		],
+		"template": "{{prop_name}}"
+	},	{
+		"abbreviation": "MsSlow",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"entries": 
+		[	
+			{	"type": "entries",
+				"name": "Mastery: Slow",
+				"entries": [ "Una vez que golpeas a una criatura que se encuentra dentro del alcance de un arma, debe superar una tirada de salvación. Si falla, su velocidad se reduce en 15 pies y no puede reaccionar hasta el comienzo de tu siguiente turno." ]
+			}
+		],
+		"template": "{{prop_name}}"
+	},	{
+		"abbreviation": "MsSap",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"entries": 
+		[
+			{	"type": "entries",
+				"name": "Mastery: Sap",
+				"entries": [ "Una vez que golpeas a una criatura que está dentro del alcance de tu arma, debe superar una tirada de salvación. Si falla, queda daze (puede moverse o realizar una acción o acción adicional, pero no más de una) hasta el comienzo de tu siguiente turno." ]
+			}
+		],		
+		"template": "{{prop_name}}"
+	},	{
+		"abbreviation": "MsScrape",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"entries":
+		[	
+			{	"type": "entries",
+				"name": "Mastery: Scrape" ,
+				"entries": [ "Cuando golpeas a una criatura que está a tu alcance, debe hacer una tirada de salvación. Si falla, la criatura recibe todo el daño del arma. Si tiene éxito, el objetivo recibe la mitad del daño." ]
+			}	
+		],
+		"template": "{{prop_name}}"
+	},	{
+		"abbreviation": "MsNick",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"entries": 
+		[	
+			{	"type": "entries",
+				"name": "Mastery: Nick",
+				"entries": [ "Cuando realizas el ataque adicional de la propiedad Light, puedes hacerlo como parte de la acción de Ataque en lugar de como una Acción Bonus. No puedes realizar otro ataque con tu Acción Bonus si utilizas esta maestría de arma." ]
+			}	
+		],
+		"template": "{{prop_name}}"
+	},	{
+		"abbreviation": "MsTopple",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"entries": 
+		[	
+			{	"type": "entries",
+				"name": "Mastery: Topple",
+				"entries": [ "Si golpeas a una criatura con esta arma, puedes obligarla a realizar una tirada de salvación. Si la tirada falla, la criatura queda en estado de Prone." ]
+			}
+		],
+		"template": "{{prop_name}}"
+	},	{
+		"abbreviation": "MsDisarm",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"entries": 
+		[	
+			{	"type": "entries",
+				"name": "Mastery: Disarm",
+				"entries": [ "Una vez que golpeas a una criatura que se encuentra dentro del alcance de un arma, debe superar una tirada de salvación. Si falla, suelta el objeto o la criatura que sostiene." ]
+			}	
+		],
+		"template": "{{prop_name}}"
+	},	{
+		"abbreviation": "MsPin",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"entries": 
+		[	
+			{	"type": "entries",
+				"name": "Mastery: Pin",
+				"entries": [ "Una vez que golpeas a una criatura que se encuentra dentro del alcance de un arma, debe superar una tirada de salvación. Si falla, queda restraint hasta el final de su siguiente turno. Al usar esta maestría no podrás realizar ninguna otra tirada de ataque hasta el final de tu turno." ]
+			}	
+		],
+		"template": "{{prop_name}}"
+	},	{
+		"abbreviation": "MsWeaken",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"entries": 
+		[	
+			{	"type": "entries",
+				"name": "Mastery: Weaken",
+				"entries": [ "Una vez que golpeas a una criatura dentro del alcance de tu arma, debe superar una tirada de salvación. Si falla, la siguiente tirada de salvación que realice la criatura antes del comienzo de tu siguiente turno se realiza con desventaja." ]
+			}
+		],
+		"template": "{{prop_name}}"
+	},	{
+		"abbreviation": "MsBleed",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"entries": 
+		[	
+			{	"type": "entries",
+				"name": "Mastery: Bleed",
+				"entries": [ "Una vez que golpeas a una criatura dentro del alcance de un arma, debe superar una tirada de salvación. Si falla al comienzo del turno de la criatura, 1d4 + tu bonificador de proficiencia. Si la tirada de salvación tiene éxito, el objetivo no sufre daño." ]
+			}
+		],
+		"template": "{{prop_name}}"
+	},	{
+		"abbreviation": "MsCleave",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"entries": 
+		[	
+			{	"type": "entries",
+				"name": "Mastery: Cleave",
+				"entries": [ "Si golpeas a una criatura con una tirada de ataque cuerpo a cuerpo usando esta arma, puedes hacer una tirada de ataque cuerpo a cuerpo con el arma contra una segunda criatura a 5 pies o menos de la primera que también esté dentro de tu alcance. Al impactar, la segunda criatura recibe el daño del arma, pero no sumas tu modificador de característica a ese daño a menos que ese modificador sea negativo." ]
+			}
+		],
+		"template": "{{prop_name}}"
+	},	{
+		"abbreviation": "MsGraze",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"entries": 
+		[	
+			{	"type": "entries",
+				"name": "Mastery: Graze",
+				"entries": [ "Si tu tirada de ataque con esta arma no alcanza a una criatura, puedes infligir daño a esa criatura igual al modificador de característica que usaste para realizar la tirada de ataque. Este daño es del mismo tipo que el que inflige el arma y solo se puede aumentar incrementando el modificador de característica." ]
+			}
+		],
+		"template": "{{prop_name}}"
+	},	{
+		"abbreviation": "MsPierce",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"entries": 
+		[	
+			{	"type": "entries",
+				"name": "Mastery: Pierce",
+				"entries": [ "Una cantidad de criaturas igual a tu bonificación de competencia dentro del alcance del arma y en línea recta que se origine desde ti deben tener éxito en una tirada de salvación. Si fallan, reciben todo el daño del arma, pero no sumas tu modificador de característica a ese daño, a menos que ese modificador sea negativo. Si la tirada de salvación tiene éxito, los objetivos no reciben daño." ]
+			}	
+		],
+		"template": "{{prop_name}}"
+	},	{
+		"abbreviation": "MsDistract",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"entries": 
+		[	
+			{	"type": "entries",
+				"name": "Mastery: Distract",
+				"entries": [ "Una vez que golpeas a una criatura que se encuentra dentro del alcance de tu arma, debe superar una tirada de salvación. Si falla, el siguiente ataque contra esa criatura antes del comienzo de tu siguiente turno se realiza con ventaja." ]
+			}
+		],
+		"template": "{{prop_name}}"
+	},	{
+		"abbreviation": "MsBreach",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"entries": 
+		[	
+			{	"type": "entries",
+				"name": "Mastery: Breach",
+				"entries": [ "Una vez que golpeas a una criatura que se encuentra dentro del alcance de un arma, debe superar una tirada de salvación. Si falla, el daño infligido ignora las resistencias al daño contundente, perforante y cortante."	]
+			}	
+		],
+		"template": "{{prop_name}}"
+	},	{
+		"abbreviation": "MsVex",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"entries": 
+		[	
+			{	"type": "entries",
+				"name": "Mastery: Vex",
+				"entries": [ "Una vez que golpeas a una criatura dentro del alcance de un arma, la obligas a realizar una salvacion, en un fallo obtienes ventaja en tus tiradas de ataque contra esa criatura antes del final de tu próximo turno." ]
+			}	
+		],
+		"template": "{{prop_name}}"
+	},	{
+		"abbreviation": "MsLiquidate",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"entries": 
+		[	
+			{	"type": "entries",
+				"name": "Mastery: Liquidate",
+				"entries": [ "Si realizas un ataque con un arma de liquidación y logras un golpe crítico contra una criatura sumergida bajo el agua, puedes tirar tres dados de daño del arma al determinar el daño adicional que recibe (Estos dados no se duplican en un critico)." ]
+			}	
+		],
+		"template": "{{prop_name}}"
+	}	],	
+	"item":	
+	[	{	
+		"name": "Club",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+			"type": "M",
+			"rarity": "none",
+			"weaponCategory": "Simple",
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"property": [ "L", "MsSlow", "MsShift" ],
+			"weight": 2,
+			"value": 10	
+	},	{	
+		"name": "Dagger",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+			"type": "M",
+			"rarity": "none",
+			"weaponCategory": "Simple",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"property": [ "L", "F", "MsNick", "MsScrape" ],
+			"weight": 1,
+			"value": 200	
+	},	{	
+		"name": "Greatclub",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+			"type": "M",
+			"rarity": "none",
+			"weaponCategory": "Simple",
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"property": [ "2H", "MsPush", "MsDisarm" ],
+			"weight": 10,
+	 		"value": 20	
+	},	{	
+		"name": "Handaxe",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+			"type": "M",
+			"rarity": "none",
+			"weaponCategory": "Simple",
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"property": [ "L","T","MsVex","MsScrape" ],
+			"range": "20/60",
+			"weight": 2,
+			"value": 500	
+	},	{	
+		"name": "Javelin",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+			"type": "M",
+			"rarity": "none",
+			"weaponCategory": "Simple",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"property": [ "T","MsSlow","MsPierce" ],
+			"range": "30/120",
+	 		"weight": 2,
+	 		"value": 50	
+	},	{	
+		"name": "Light Hammer",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+			"type": "M",
+			"rarity": "none",
+			"weaponCategory": "Simple",
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"property": [ "L","T","MsNick","MsDistract" ],
+			"range": "20/60",
+			"weight": 2,
+			"value": 200	
+	},	{	
+		"name": "Mace",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+			"type": "M",
+			"rarity": "none",
+			"weaponCategory": "Simple",
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"property": [ "MsSap","MsDisarm" ],
+			"weight": 2,
+			"value": 500	
+	},	{	
+		"name": "Quarterstaff",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+			"type": "M",
+			"rarity": "none",
+			"weaponCategory": "Simple",
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"property": [ "MsTopple","MsWeaken" ],
+			"weight": 4,
+			"value": 20	
+	},	{	
+		"name": "Sickle",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+			"type": "M",
+			"rarity": "none",
+			"weaponCategory": "Simple",
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"property": [ "L","MsNick","MsBleed" ],
+			"weight": 2,
+			"value": 100	
+	},	{	
+		"name": "Spear",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+			"type": "M",
+			"rarity": "none",
+			"weaponCategory": "Simple",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"property": [ "T","MsSlow","MsPierce" ],
+			"weight": 3,
+			"value": 100	
+	},	{	
+		"name": "Crossbow, Light",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+			"type": "R",
+			"rarity": "none",
+			"weaponCategory": "Simple",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"property": [ "A","2H","LD","MsSlow","MsSap" ],
+			"ammunition": true,
+			"range": "{@item Bolt|XPHB}. Range 80/320",
+			"weight": 5,
+			"value": 2500	
+	},	{	
+		"name": "Dart",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+			"type": "R",
+			"rarity": "none",
+			"weaponCategory": "Simple",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"property": [ "F","T","MsVex","MsDistract" ],
+			"range": "20/60",
+			"weight": 0.25,
+			"value": 5	
+	},	{	
+		"name": "Shortbow",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+			"type": "R",
+			"rarity": "none",
+			"weaponCategory": "Simple",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"property": [ "2H","A","MsVex","MsSlow"	],
+			"range": "{@item Arrow|XPHB}. Range 80/320",
+			"weight": 2,
+			"value": 2500	
+	},	{	
+		"name": "Sling",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+			"type": "R",
+			"rarity": "none",
+			"weaponCategory": "Simple",
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"property": [ "A","MsSlow","MsDistract" ],
+			"range":"{@item Sling Bullet|XPHB}. Range 30/120",
+			"value": 10	
+	},	{	
+		"name": "Battleaxe",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"type": "M",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "1d8",
+		"dmg2": "1d10",
+		"dmgType": "S",
+		"property": 
+		[	"V","MsTopple","MsGraze"	],
+		"weight": 4,
+		"value": 1000	
+	},	{	
+		"name": "Flail",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"type": "M",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "1d8",
+		"dmgType": "B",
+		"property": 
+		[	"MsSap","MsBreach"	],
+		"weight": 2,
+		"value": 1000	
+	},	{	
+		"name": "Glaive",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"type": "M",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "1d10",
+		"dmgType": "S",
+		"property": 
+		[	"H","R","2H","MsGraze","MsWeaken"	],
+		"weight": 6,
+		"value": 20	
+	},	{	
+		"name": "Greataxe",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"type": "M",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "1d12",
+		"dmgType": "S",
+		"property": 
+		[	"H","2H","MsCleave","MsSwing"	],
+		"weight": 7,
+		"value": 3000	
+	},	{	
+		"name": "Greatsword",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"type": "M",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "2d6",
+		"dmgType": "S",
+		"property": 
+		[	"H","2H","MsGraze","MsSwing"	],
+		"weight": 6,
+		"value": 5000	
+	},	{	
+		"name": "Halberd",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"type": "M",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "1d10",
+		"dmgType": "S",
+		"property": 
+		[	"H","R","2H","MsCleave","MsTopple"	],
+		"weight": 6,
+		"value": 2000	
+	},	{	
+		"name": "Lance",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"type": "M",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "1d10",
+		"dmgType": "P",
+		"property": 
+		[	"H","R","2H","MsTopple","MsBleed"	],
+		"weight": 6,
+		"value": 1000	
+	},	{	
+		"name": "Longsword",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"type": "M",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "1d8",
+		"dmg2": "1d10",
+		"dmgType": "S",
+		"property": 
+		[	"V","MsSap","MsShift"	],
+		"weight": 3,
+		"value": 1500	
+	},	{	
+		"name": "Maul",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"type": "M",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "2d6",
+		"dmgType": "B",
+		"property": 
+		[	"H","2H","MsTopple","MsPush"	],
+		"weight": 10,
+		"value": 1000	
+	},	{	
+		"name": "Morningstar",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"type": "M",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "1d8",
+		"dmgType": "P",
+		"property": 
+		[	"MsSap","MsBreach"	],
+		"weight": 4,
+		"value": 15	
+	},	{	
+		"name": "Pike",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"type": "M",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "1d10",
+		"dmgType": "P",
+		"property": 
+		[	"H","R","2H","MsPush","MsPierce"	],
+		"weight": 18,
+		"value": 500	
+	},	{	
+		"name": "Rapier",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"type": "M",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "1d8",
+		"dmgType": "P",
+		"property": 
+		[	"F","MsVex","MsBleed"	],
+		"weight": 2,
+		"value": 2500	
+	},	{	
+		"name": "Scimitar",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"type": "M",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "1d6",
+		"dmgType": "S",
+		"property": 
+		[	"F","L","MsNick","MsScrape"	],
+		"weight": 3,
+		"value": 2500	
+	},	{	
+		"name": "Shortsword",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"type": "M",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "1d6",
+		"dmgType": "P",
+		"property": 
+		[	"F","L","MsVex","MsShift"	],
+		"weight": 2,
+		"value": 1000	
+	},	{	
+		"name": "Trident",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"type": "M",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "1d8",
+		"dmg2": "1d10",
+		"range":"20/60",
+		"dmgType": "P",
+		"property": 
+		[	"T","V","MsPierce","MsPin"	],
+		"weight": 4,
+		"value": 500	
+	},	{	
+		"name": "Warhammer",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"type": "M",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "1d8",
+		"dmg2": "1d10",
+		"dmgType": "B",
+		"property": 
+		[	"V","MsPush","MsWeaken"	],
+		"weight": 5,
+		"value": 1500	
+	},	{	
+		"name": "War Pick",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"type": "M",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "1d8",
+		"dmg2": "1d10",
+		"dmgType": "P",
+		"property": 
+		[	"V","MsSap","MsBreach"	],
+		"weight": 2,
+		"value": 500	
+	},	{	
+		"name": "Whip",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"type": "M",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "1d4",
+		"dmgType": "S",
+		"property": 
+		[	"F","R","MsSlow","MsDisarm"	],
+		"weight": 3,
+		"value": 200	
+	},	{	
+		"name": "Double-Bladed Scimitar",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"type": "M",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "2d4",
+		"dmgType": "S",
+		"property": 
+		[	"ScimitarS","2H", "F", "MsNick","MsBleed"	],
+		"weight": 6,
+		"value": 10000	
+	},	{	
+		"name": "Greatmaul",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"type": "M",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "1d12",
+		"dmgType": "B",
+		"property": 
+		[	"2H","H","MsPush","MsMomentum"	],
+		"weight": 10,
+		"value": 5000	
+	},	{	
+		"name": "Harpoon",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"type": "M",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "1d6",
+		"dmgType": "P",
+		"property": 
+		[	"HarpoonS","T","MsPierce","MsLiquidate"	],
+		"range": "15/30",
+		"weight": 3,
+		"value": 10000	
+	},	{	
+		"name": "Blowgun",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"type": "R",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "1",
+		"dmgType": "P",
+		"property": 
+		[	"A",
+			"LD",
+			"MsVex",
+			"MsPin"	],
+		"ammunition": true,
+		"range": "{@item Needle|XPHB}. Range 25/100",
+		"weight": 1,
+		"value": 1000	
+	},	{	
+		"name": "Crossbow, Hand",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"type": "R",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "1d6",
+		"dmgType": "P",
+		"property": 
+		[	"A",
+			"L",
+			"LD",
+			"MsVex",
+			"MsSap"	],
+		"ammunition": true,
+		"range": "{@item Bolt|XPHB}. Range 30/120",
+		"weight": 3,
+		"value": 7500	
+	},	{	
+		"name": "Crossbow, Heavy",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"type": "R",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "1d10",
+		"dmgType": "P",
+		"property": 
+		[	"H",
+			"LD",
+			"2H",
+			"A",
+			"MsPush",
+			"MsPin"	],
+		"ammunition": true,
+		"range": "{@item Bolt|XPHB}. Range 100/400",
+		"weight": 18,
+		"value": 5000	
+	},	{	
+		"name": "Longbow",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"type": "R",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "1d8",
+		"dmgType": "P",
+		"property": 
+		[	"A",
+			"H",
+			"2H",
+			"MsSlow",
+			"MsPierce"	],
+		"ammunition": true,
+		"range": "{@item Arrow|XPHB}. Range 150/600",
+		"weight": 2,
+		"value": 5000	
+	},	
+	{	
+	"name": "Musket",
+	"source": "AelarionElNuevoContinente",
+	"page": 0,
+		"type": "R",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "1d12",
+		"dmgType": "P",
+		"customProperties": { "misfire": 2, "mcosto": 5, "mcantidad": 5 },
+		"property": [	"CdM", "RLD", "Mf", "2H", "MusketS", "MsBreach", "MsPierce"	],
+		"ammunition": true,
+		"range": "120/480 ft. o 150/480",
+		"reload": 1,
+		"weight": 10,
+		"value": 50000	
+	},	
+	{	
+	"name": "Pistol",
+	"source": "AelarionElNuevoContinente",
+	"page": 0,
+		"type": "R",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "1d10",
+		"dmgType": "P",
+		"customProperties": { "misfire": 2, "mcosto": 5, "mcantidad": 10 }, 
+		"property": [	"A", "RLD", "PistolS", "MsVex", "MsDistract"	],
+		"ammunition": true,
+		"range": "60/240 ft. o 30/120",
+		"reload": 6,
+		"weight": 5,
+		"value": 25000	
+	},	{	
+		"name": "Palm Pistol",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"type": "R",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "1d8",
+		"dmgType": "P",
+		"customProperties": { "misfire": 2, "mcosto": 3, "mcantidad": 10 },
+		"property": 
+		[	"L",
+			"A",
+			"RLD",
+			"MsSlow",
+			"MsBleed"	],
+		"ammunition": true,
+		"range": "40/160",
+		"reload": 3,
+		"weight": 1,
+		"value": 12000	
+	},	{	
+		"name": "Pepperbox",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"type": "R",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "1d10",
+		"dmgType": "P",
+		"customProperties": { "misfire": 2, "mcosto": 5, "mcantidad": 10 },
+		"property": 
+		[	"PistolS",
+			"RLD",
+			"MsSlow",
+			"MsSap"	],
+		"ammunition": true,
+		"range": "80/320 ft. o 40/120",
+		"reload": 6,
+		"weight": 8,
+		"value": 60000	
+	},	{	
+		"name": "Blunderbuss",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"type": "R",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "2d8",
+		"dmgType": "P",
+		"customProperties": { "misfire": 4, "mcosto": 7, "mcantidad": 5 },
+		"property": 
+		[	"2H",
+			"MsSap",
+			"MsPierce"	],
+		"ammunition": true,
+		"range": "15/45",
+		"reload": 1,
+		"weight": 10,
+		"value": 120000	
+	},	{	
+		"name": "Hand Mortar",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"type": "R",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "2d8",
+		"dmgType": "F",
+		"customProperties": { "misfire": 4, "mcosto": 5, "mcantidad": 5 },
+		"property": 
+		[	"2H",
+			"RLD",
+			"Explosivo",
+			"MsPush",
+			"MsSlow"	],
+		"ammunition": true,
+		"range": "30/60",
+		"reload": 1,
+		"weight": 10,
+		"value": 80000	
+	},	{	
+		"name": "Bad News",
+		"source": "AelarionElNuevoContinente",
+		"page": 0,
+		"type": "R",
+		"rarity": "none",
+		"weaponCategory": "Martial",
+		"dmg1": "2d12",
+		"dmgType": "F",
+		"customProperties": { "misfire": 3, "mcosto": 15, "mcantidad": 5 },
+		"property": 
+		[	"RLD",
+			"2H",
+			"MsSlow",
+			"MsSap"	],
+		"ammunition": true,
+		"range": "200/400",
+		"reload": 1,
+		"weight": 10,
+		"value": 350000	
+	}	]	}
